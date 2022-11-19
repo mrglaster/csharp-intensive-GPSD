@@ -1,0 +1,15 @@
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\bin\Debug\net6.0\GpsdApplication.exe
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\bin\Debug\net6.0\gpsd_exists_data.json
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\bin\Debug\net6.0\GpsdApplication.deps.json
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\bin\Debug\net6.0\GpsdApplication.runtimeconfig.json
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\bin\Debug\net6.0\GpsdApplication.dll
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\bin\Debug\net6.0\ref\GpsdApplication.dll
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\bin\Debug\net6.0\GpsdApplication.pdb
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\GpsdApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\GpsdApplication.AssemblyInfoInputs.cache
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\GpsdApplication.AssemblyInfo.cs
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\GpsdApplication.csproj.CoreCompileInputs.cache
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\GpsdApplication.dll
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\ref\GpsdApplication.dll
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\GpsdApplication.pdb
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\GpsdApplication.genruntimeconfig.cache

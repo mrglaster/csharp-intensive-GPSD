@@ -1,0 +1,16 @@
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\bin\Debug\net6.0\intensive-csharp-app.exe
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\bin\Debug\net6.0\gpsd_exists_data.json
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\bin\Debug\net6.0\intensive-csharp-app.deps.json
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\bin\Debug\net6.0\intensive-csharp-app.runtimeconfig.json
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\bin\Debug\net6.0\intensive-csharp-app.dll
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\bin\Debug\net6.0\ref\intensive-csharp-app.dll
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\bin\Debug\net6.0\intensive-csharp-app.pdb
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\intensive-csharp-app.csproj.AssemblyReference.cache
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\intensive-csharp-app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\intensive-csharp-app.AssemblyInfoInputs.cache
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\intensive-csharp-app.AssemblyInfo.cs
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\intensive-csharp-app.csproj.CoreCompileInputs.cache
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\intensive-csharp-app.dll
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\ref\intensive-csharp-app.dll
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\intensive-csharp-app.pdb
+C:\Users\Glaster\Desktop\AssemblyInserts\intensive-csharp-app\intensive-csharp-app\obj\Debug\net6.0\intensive-csharp-app.genruntimeconfig.cache
