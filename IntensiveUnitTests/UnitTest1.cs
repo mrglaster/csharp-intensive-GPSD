@@ -9,6 +9,15 @@ namespace IntensiveUnitTests
         public void checkGPSDModel_classDetectionTest(string data)
         {
             var manager = new GpsdManager();
+
+
+            manager.OnLoadData = (sender, args) => {
+                var item = args as GpsdEventArg;
+                if (item is null) return;
+                Console.WriteLine(item.Model);
+            };
+
+
             var result = manager.LoadData(data);
             Assert.Pass();
         }
@@ -19,15 +28,13 @@ namespace IntensiveUnitTests
         [TestCase("WATCH", typeof(GpsdWatchModel))]
         [TestCase("DEVICE", typeof(GpsdDeviceModel))]
         [TestCase("TPV", typeof(GpsdTPVModel))]
+        [TestCase("SKY", typeof(GpsdSKYModel))]
         public void checkFactory(string type, Type assertType) {
             var factory = new GpsdFactory();
             var resut = factory.Create(type);
             Assert.That(resut, Is.EqualTo(assertType));
 
         }
-
-
-
 
     }
 }
