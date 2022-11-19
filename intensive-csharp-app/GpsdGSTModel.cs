@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
+
 
 
 //{"class":"GST","device":"/dev/pts/2","time":"2022-07-07T04:03:52.069Z","rms":0.000,"major":99999.000,"minor":99999.000,"orient":0.000,"lat":99999.000,"lon":99999.000,"alt":99999.000}
@@ -38,5 +34,10 @@ namespace intensive_csharp_app
 
         [JsonPropertyName("alt")]
         public float Alt { get; set; }
+
+        public override string ToString()
+        {
+            return $"Name: {nameof(GpsdGSTModel)}, Device: {Device} etc";
+        }
     }
 }

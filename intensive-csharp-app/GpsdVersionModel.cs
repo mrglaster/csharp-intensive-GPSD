@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
+
 
 namespace intensive_csharp_app
 {
@@ -18,6 +14,9 @@ namespace intensive_csharp_app
         [JsonPropertyName("proto_minor")]
         public int Minor { get; set; }
 
-
+        public override string ToString()
+        {
+            return $"Name: {nameof(GpsdWatchModel)}, Release : {Release}, Revision: {Revision}, Major: {Major}, Minor: {Minor}";
+        }
     }
 }

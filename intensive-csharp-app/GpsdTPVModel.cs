@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json.Serialization;
-using System.Threading.Tasks;
+﻿using System.Text.Json.Serialization;
+
 
 // {"class":"TPV","device":"/dev/pts/2","mode":3,"time":"2022-07-06T07:37:53.000Z","ept":0.005,"lat":59.987305000,"lon":30.312196667,"alt":3.700,"epx":10.180,"epy":10.214,"epv":28.520,"track":0.0000,"speed":0.129,"climb":-0.100,"eps":20.43,"epc":57.04}
 
@@ -56,5 +52,13 @@ namespace intensive_csharp_app
 
         [JsonPropertyName("epc")]
         public double Epc { get; set; }
+
+
+        public override string ToString()
+        {
+            return $"Name: {nameof(GpsdTPVModel)}, Device: {Device}, Mode: {Mode}, Time: {Time}, Ept: {Ept}, Lat: {Lat}, Lon: {Lon}, Alt: {Alt}, Epx: {Epx}, Epy: {Epy}, Epv: {Epv}, Track: {Track}, Speed: {Speed}, Climb: {Climb}, Eps: {Eps}, Epc: {Epc}";
+        }
     }
+
+    
 }

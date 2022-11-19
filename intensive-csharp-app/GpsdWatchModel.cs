@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 
 // {"class":"WATCH","enable":true,"json":true,"nmea":false,"raw":0,"scaled":false,"timing":false,"split24":false,"pps":false}
 
@@ -34,5 +29,10 @@ namespace intensive_csharp_app
 
         [JsonPropertyName("pps")]
         public bool Pps { get; set; }
+
+        public override string ToString()
+        {
+            return $"Name: {nameof(GpsdWatchModel)}, enable: {Enable}, json: {Json}, nmea: {Nmea}, raw: {Raw} , Scaled : {Scaled}, Timing: {Timing}, Split24: {Split24}, pps: {Pps}";
+        }
     }
 }

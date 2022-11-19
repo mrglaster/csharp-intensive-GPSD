@@ -36,6 +36,9 @@ namespace intensive_csharp_app
         [JsonPropertyName("cycle")]
         public double Cycle { get; set; }
 
-
+        public override string ToString()
+        {
+            return $"Name: {nameof(GpsdDeviceModel)}, Path: {Path} etc";
+        }
     }
 }
