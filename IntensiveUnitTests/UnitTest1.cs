@@ -3,6 +3,55 @@ namespace IntensiveUnitTests
 {
     public class Tests
     {
+
+
+        [Test]
+        public void check_GetHeaderForSelectQuerry() {
+            var item = new GpsdVersionModel()
+            {
+                Class = "Version",
+                Major = 1,
+                Release = "test",
+                Revision = "test"
+            };
+            var result = ReflectionHelper.generateSqlQuerryGet(item);
+            ReflectionHelper.selectThrow(result);
+            Console.WriteLine(result);
+            Assert.IsNotNull(result);   
+        }
+
+
+        [Test]
+        public void check_Helper_properties() {
+            var item = new GpsdVersionModel() {
+                Class = "Version",
+                Major = 1,
+                Release = "test",
+                Revision = "test"
+            };
+
+            var result = ReflectionHelper.GetProperties(item);
+            Assert.IsTrue(result.Any());
+            foreach (var key in result.Keys) {
+                Console.WriteLine($"{key} : {result[key]}");
+            }
+
+
+        }
+
+
+        [Test]
+        [TestCase(typeof(GpsdVersionModel))]
+        [TestCase(typeof(GpsdSateliteModel))]
+        [TestCase(typeof(GpsdSKYModel))]
+        public void Check_Helper_GetTable(Type type) {
+            var result = ReflectionHelper.GetTableName(type);
+            Console.WriteLine(result);
+            Assert.IsFalse(string.IsNullOrEmpty(result));
+
+        }
+
+
         [Test]
         [TestCase ("{\"class\":\"VERSION\",\"release\":\"3.17\",\"rev\":\"3.17\",\"proto_major\":3,\"proto_minor\":12}")]
         [TestCase("{\"class\":\"GST\",\"device\":\"/dev/pts/2\",\"time\":\"2022-07-07T04:04:14.000Z\",\"rms\":2.800,\"major\":1391.000,\"minor\":50.000,\"orient\":91.700,\"lat\":65.000,\"lon\":1390.000,\"alt\":985.000}")]
