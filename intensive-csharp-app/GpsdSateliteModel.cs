@@ -1,7 +1,7 @@
 ﻿using System.Text.Json.Serialization;
 namespace intensive_csharp_app
 {
-
+    [TableName("public.data_sky_satellites")]
     public  class GpsdSateliteModel
     {
         //{"PRN":29,"el":61,"az":106,"ss":28,"used":true},{"PRN":18,"el":59,"az":201,"ss":36,"used":true}
